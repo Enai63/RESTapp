@@ -14,9 +14,9 @@ public class CompanyController {
     private Long counter = 4L;
     private List<Map<String, String>> companys = new ArrayList<Map<String, String>>()
     {{
-        add(new HashMap<String, String>() {{put("id", "1"); put("text", "company1");}});
-        add(new HashMap<String, String>() {{put("id", "2"); put("text", "company2");}});
-        add(new HashMap<String, String>() {{put("id", "3"); put("text", "company3");}});
+        add(new HashMap<String, String>() {{put("id", "1"); put("text", "EPAM"); put("value", "1200");}});
+        add(new HashMap<String, String>() {{put("id", "2"); put("text", "GEMBL"); put("value", "1500");}});
+        add(new HashMap<String, String>() {{put("id", "3"); put("text", "EGAR"); put("value", "1100");}});
     }};
 
     @GetMapping
